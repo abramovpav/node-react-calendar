@@ -1,0 +1,45 @@
+div.month-day-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1px 3px;
+    width: calc(100% - 6px); /*6px for padding*/
+}
+
+div.month-day-view.today {
+    height: calc(100% - 2px); /*2px for border*/
+    width: calc(100% - 2px - 6px); /*6px for padding and 2px for borders*/
+}
+
+div.month-day-view .day-number, div.month-day-view .day-event-info, div.month-day-view a {
+    white-space: nowrap;
+    overflow: hidden;
+}
+div.month-day-view .day-event-info {
+    color: #72b7d7;
+    cursor: pointer;
+}
+
+div.month-day-view a{
+    color: #15c;
+    text-decoration: none;
+}
+
+div.month-day-view a:hover{
+    text-decoration: underline;
+}
+
+div.month-day-view.free-cell .day-number{
+    color: #aaa;
+}
+
+div.month-day-view.today .day-number{
+    font-weight: bold;
+}
+
+
+div.month-day-view.extended {
+    width: 100px;
+    height: 100px;
+}

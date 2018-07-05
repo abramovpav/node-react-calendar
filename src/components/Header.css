@@ -1,0 +1,15 @@
+.Header {
+    position: relative;
+}
+
+.Header .auth-buttons {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.button.login {
+    margin-right: 10px;
+    /*position: absolute;*/
+    /*right: 10px;*/
+    /*top: 10px;*/
+}

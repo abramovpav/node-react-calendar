@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 2999,
+    "db": {
+      "contactPoints": ["127.0.0.1"],
+      "keyspace": "calendar",
+      "protocolOptions": { "port": 9042 }
+    },
+    "session": {
+      "secret": "SuperStrongSecretKey",
+      "key": "sid",
+      "cookie": {
+        "httpOnly": true,
+        "path": "/",
+        "maxAge": null
+      }
+    }
+  }
+}

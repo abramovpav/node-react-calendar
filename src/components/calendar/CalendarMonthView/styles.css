@@ -1,0 +1,51 @@
+table.calendar-month-table {
+    border: 1px solid #ddd;
+    border-bottom: none;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table.calendar-month-table th {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+table.calendar-month-table th:last-child {
+    border-right: none;
+}
+
+table.calendar-month-table td {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+table.calendar-month-table td:last-child {
+    border-right: none;
+}
+
+
+table.calendar-month-table tbody tr {
+    height: 150px;
+}
+
+
+table.calendar-month-table tbody td.day-cell {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    position: relative;
+}
+
+table.calendar-month-table tbody td.day-cell .today {
+    background-color: #eaeaea;
+    border: 1px solid black;
+}
+
+table.calendar-month-table tbody td.day-cell .free-cell {
+    background-color: #f4f4f4;
+}
+
+/*table.calendar-month-table tr {*/
+    /*height: 50px;*/
+/*}*/

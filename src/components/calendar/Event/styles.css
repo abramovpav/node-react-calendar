@@ -1,0 +1,20 @@
+.day-event {
+    position: absolute;
+    color: #777;
+}
+
+.event-time-text {
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.event-description {
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.event-description:hover {
+    text-decoration: underline;
+}

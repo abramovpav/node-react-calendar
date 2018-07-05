@@ -1,0 +1,37 @@
+
+.day-header {
+    text-align: center;
+}
+
+.day-header.today {
+    font-weight: bold;
+}
+
+.event-info-container {
+    position: relative;
+}
+
+.week-container .event-info-container{
+    width: calc((100% / 7) - 1px);
+    float: left;
+    border-left: 1px solid #ddd;
+}
+
+.event-info-container.today{
+    background-color: #f1f1f1;
+}
+
+.event-info {
+    height: 60px;
+    border-top: 1px solid #ddd;
+}
+
+.event-info:first-child {
+    border-top: none;
+}
+
+.week-day:first-child {
+    border-left: none;
+}
+
+

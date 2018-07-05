@@ -1,0 +1,22 @@
+.page.page-auth .form.auth-form {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.page.page-auth .form.auth-form .errors-block {
+    color: red;
+}
+
+.page.page-auth .form.auth-form .form-row {
+    margin-top: 10px;
+}
+
+.page.page-auth .form.auth-form .form-row input {
+    width: 100%;
+}
+
+.page.page-auth .form.auth-form .button {
+    margin-top: 20px;
+}
