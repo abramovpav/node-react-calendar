@@ -59,7 +59,7 @@ class Signup extends Component {
         const { user, errorMessage } = this.state;
         return (
             <div className="page page-auth">
-                <h3>Sign up</h3>/h3>
+                <h3>Sign up</h3>
                 <form className="form auth-form" onSubmit={this.signup}>
                     <div className="errors-block">
                         { errorMessage }

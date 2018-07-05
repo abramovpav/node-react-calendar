@@ -4,6 +4,9 @@ const HttpError = require('../error').HttpError,
 module.exports = {
     login: function(req, res, next) {
         const { username, password } = req.body;
+        if (!username || !password) {
+            return next(new HttpError(400, 'Provide both username and password'));
+        }
 
         req.db.instance.User.findOne({username: username}, function(err, user) {
             if (err) { return next(err) }
