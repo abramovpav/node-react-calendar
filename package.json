@@ -15,7 +15,6 @@
     "express-cassandra": "^2.2.2",
     "express-favicon": "^2.0.1",
     "express-session": "^1.15.6",
-    "express-static": "^1.2.5",
     "helmet": "^3.12.1",
     "history": "^4.7.2",
     "http-errors": "^1.6.3",
